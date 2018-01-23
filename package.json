@@ -1,0 +1,19 @@
+{
+  "name": "reduce-abuse",
+  "version": "1.0.0",
+  "description": "A JavaScript utility library that abuses `Array.prototype.reduce` and reduces abuse in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleshevlin/reduce-abuse.git"
+  },
+  "author": "Kyle Shevlin <kyle.a.shevlin@gmail.com> (http://kyleshevlin.com/)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/kyleshevlin/reduce-abuse/issues"
+  },
+  "homepage": "https://github.com/kyleshevlin/reduce-abuse#readme"
+}
