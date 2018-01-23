@@ -1,4 +1,4 @@
 const every = predicate => arr =>
-  arr.reduce((acc, cur) => (!acc ? acc : predicate(acc)), true)
+  arr.reduce((acc, cur) => (!acc ? acc : predicate(cur)), true)
 
 module.exports = every
