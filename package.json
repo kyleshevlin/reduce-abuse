@@ -4,7 +4,8 @@
   "description": "A JavaScript utility library that abuses `Array.prototype.reduce` and reduces abuse in the world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kyleshevlin/reduce-abuse/issues"
   },
-  "homepage": "https://github.com/kyleshevlin/reduce-abuse#readme"
+  "homepage": "https://github.com/kyleshevlin/reduce-abuse#readme",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
 }
