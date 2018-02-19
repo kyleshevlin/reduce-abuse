@@ -1,3 +1,4 @@
+const copyWithin = require('./src/copyWithin')
 const every = require('./src/every')
 const fill = require('./src/fill')
 const filter = require('./src/filter')
@@ -8,6 +9,7 @@ const map = require('./src/map')
 const reverse = require('./src/reverse')
 
 module.exports = {
+  copyWithin,
   every,
   fill,
   filter,
