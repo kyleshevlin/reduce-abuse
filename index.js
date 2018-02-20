@@ -6,6 +6,7 @@ const filter = require('./src/filter')
 const find = require('./src/find')
 const includes = require('./src/includes')
 const indexOf = require('./src/indexOf')
+const join = require('./src/join')
 const map = require('./src/map')
 const reverse = require('./src/reverse')
 
@@ -18,6 +19,7 @@ module.exports = {
   find,
   includes,
   indexOf,
+  join,
   map,
   reverse
 }
