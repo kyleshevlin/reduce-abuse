@@ -1,3 +1,4 @@
+const concat = require('./src/concat')
 const copyWithin = require('./src/copyWithin')
 const every = require('./src/every')
 const fill = require('./src/fill')
@@ -9,6 +10,7 @@ const map = require('./src/map')
 const reverse = require('./src/reverse')
 
 module.exports = {
+  concat,
   copyWithin,
   every,
   fill,
