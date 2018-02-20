@@ -10,6 +10,7 @@ const join = require('./src/join')
 const lastIndexOf = require('./src/lastIndexOf')
 const map = require('./src/map')
 const reverse = require('./src/reverse')
+const some = require('./src/some')
 
 module.exports = {
   concat,
@@ -23,5 +24,6 @@ module.exports = {
   join,
   lastIndexOf,
   map,
-  reverse
+  reverse,
+  some
 }
