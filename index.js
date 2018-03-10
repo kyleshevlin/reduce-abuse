@@ -1,3 +1,4 @@
+const compose = require('./src/compose')
 const concat = require('./src/concat')
 const copyWithin = require('./src/copyWithin')
 const every = require('./src/every')
@@ -10,10 +11,12 @@ const indexOf = require('./src/indexOf')
 const join = require('./src/join')
 const lastIndexOf = require('./src/lastIndexOf')
 const map = require('./src/map')
+const pipe = require('./src/pipe')
 const reverse = require('./src/reverse')
 const some = require('./src/some')
 
 module.exports = {
+  compose,
   concat,
   copyWithin,
   every,
@@ -26,6 +29,7 @@ module.exports = {
   join,
   lastIndexOf,
   map,
+  pipe,
   reverse,
   smooth: flatten,
   some
