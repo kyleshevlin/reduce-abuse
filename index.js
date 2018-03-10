@@ -4,6 +4,7 @@ const every = require('./src/every')
 const fill = require('./src/fill')
 const filter = require('./src/filter')
 const find = require('./src/find')
+const flatten = require('./src/flatten')
 const includes = require('./src/includes')
 const indexOf = require('./src/indexOf')
 const join = require('./src/join')
@@ -19,11 +20,13 @@ module.exports = {
   fill,
   filter,
   find,
+  flatten,
   includes,
   indexOf,
   join,
   lastIndexOf,
   map,
   reverse,
+  smooth: flatten,
   some
 }
