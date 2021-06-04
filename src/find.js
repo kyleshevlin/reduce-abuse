@@ -1,10 +1,13 @@
-const find = predicate => arr =>
-  arr.reduce((acc, cur) => {
-    if (acc !== undefined) {
+const nil = {}
+const find = predicate => arr => {
+  const result = arr.reduce((acc, cur) => {
+    if (acc !== nil) {
       return acc
     }
 
     return predicate(cur) ? cur : acc
-  }, undefined)
+  }, nil)
+  return result === nil ? undefined : result;
+}
 
 module.exports = find
